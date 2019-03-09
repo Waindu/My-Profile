@@ -6,8 +6,6 @@ import java.sql.Connection;
 
 import org.apache.commons.dbcp2.BasicDataSource;
 
-import com.capgemini.heskuelita.data.DataException;
-
 
 public class DBConnectionManager {
 

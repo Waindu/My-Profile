@@ -1,17 +1,31 @@
+<!--
+   - Name: pom.xml
+   - Description: Maven setup file.
+   - Author: Raul Peña (raul.pena@gmail.com)
+   -->
 <project xmlns="http://maven.apache.org/POM/4.0.0"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 
-    
-
+    <!--
+       - POM setup.
+       -->
     <modelVersion>4.0.0</modelVersion>
-    <groupId>com.educacionit.java.web</groupId>
-    <artifactId>http-session</artifactId>
+    <groupId>com.educacionit.java.profile</groupId>
+    <artifactId>parent</artifactId>
     <version>1.0.0</version>
-    <name>http-session</name>
-    <packaging>war</packaging>
-    
+    <packaging>pom</packaging>
+    <name>My Profile</name>
+    <description>Java Learning Project.</description>
 
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <java.version>1.8</java.version>
+    </properties>
 
+    <modules>
+        <module>lib</module>
+        <module>profile</module>
+    </modules>
 
 </project>
